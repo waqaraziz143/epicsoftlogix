@@ -40,4 +40,4 @@ Connect the form to your selected backend/CRM and calendar, provide verified cli
 
 ## Design
 
-Warm off-white surfaces, ink typography, blue conversion buttons, and a sage/forest engineering illustration. DM Sans and Manrope load from Google Fonts with system fallbacks. All illustrations and project mockups are CSS/SVG; no external image assets are required.
+Cool white surfaces, midnight navy typography, electric blue and violet conversion buttons, and a blue glass engineering illustration. Rounded cards and a dark navy call-to-action carry the refreshed visual identity across all five pages. DM Sans and Manrope load from Google Fonts with system fallbacks. All illustrations and project mockups are CSS/SVG; no external image assets are required.
