@@ -1,6 +1,6 @@
 # EpicSoftLogix
 
-An Angular website with five hash-routed views: Home, Services, Our work, About us, and Contact. Built with standalone Angular components, TypeScript, and Vite. The initial design uses Angular's runtime template compiler.
+An Angular website with six hash-routed views: Home, Services, Our work, About us, Contact, and Accessibility. Built with standalone Angular components, TypeScript, and Vite. The initial design uses Angular's runtime template compiler.
 
 ## Local development
 
@@ -31,8 +31,8 @@ In the target GitHub repository, select **Settings → Pages → Source → GitH
 - All project examples and dashboard figures are explicitly illustrative.
 - No client names, testimonials, commercial performance metrics, or team biographies are fabricated.
 - Portfolio filters open accessible project dialogs with Escape support and keyboard focus containment.
-- Contact collects name, email, company, service, budget, timeline, and project scope. The summary updates as fields change.
-- A validated brief can be saved in localStorage, downloaded as plain text, or cleared. No data is transmitted by the form. Discovery call CTAs open this inquiry page; no appointment is booked.
+- The project brief form requires only name, email, and scope. Company, service, budget, and timeline are optional. Field errors are linked from a focused summary.
+- A validated brief can be saved in localStorage, downloaded as plain text, or cleared. No data is transmitted by the form. Project CTAs clearly open the brief builder; no appointment is booked. Clearing a saved draft offers an undo action.
 
 ## Before a public launch
 
@@ -40,8 +40,14 @@ Connect the form to your selected backend/CRM and calendar, provide verified cli
 
 ## Design
 
-Cool white surfaces, midnight navy typography, electric blue and violet conversion buttons, and a blue glass engineering illustration. Rounded cards and a dark navy call-to-action carry the refreshed visual identity across all five pages. DM Sans and Manrope load from Google Fonts with system fallbacks. All illustrations and project mockups are CSS/SVG; no external image assets are required.
+White surfaces, bold navy typography, restrained electric blue accents, and a blue glass engineering illustration. SSI Decisions informed the spacious enterprise presentation and service hierarchy; its content, client claims, and assets are not reused. DM Sans and Manrope load from Google Fonts with system fallbacks. All illustrations and project mockups are CSS/SVG; no external image assets are required.
 
 ## Brand assets
 
-Custom geometric E logo with angled terminals and a blue-to-violet tile. `public/logo.svg` is the navy wordmark; `public/logo-light.svg` is the white version for dark backgrounds. `public/logo-mark.svg` is the standalone mark and `public/favicon.svg` is its browser icon. The Angular header and footer import `src/logo-mark.svg`. All assets are editable vectors.
+Custom code-bracket logo surrounding a central diamond, with blue and cyan on a navy tile. `public/logo.svg` is the navy wordmark; `public/logo-light.svg` is the white version for dark backgrounds. `public/logo-mark.svg` is the standalone mark and `public/favicon.svg` is its browser icon. The Angular header and footer import `src/logo-mark.svg`. All assets are editable vectors.
+
+## Accessibility and UX
+
+The technical target is WCAG 2.2 AA. See [ACCESSIBILITY.md](ACCESSIBILITY.md) for tested changes, results, and remaining review. An accessibility statement is available at `#/accessibility`. This is an implementation target, not a certification of ADA compliance.
+
+For local automated checks, open `http://127.0.0.1:5173/?audit` after `npm run dev`. Use **Run accessibility audit** to scan all six views, or **Audit this view** for an interaction state. The development audit module is excluded from the production bundle.
