@@ -41,3 +41,7 @@ Connect the form to your selected backend/CRM and calendar, provide verified cli
 ## Design
 
 Cool white surfaces, midnight navy typography, electric blue and violet conversion buttons, and a blue glass engineering illustration. Rounded cards and a dark navy call-to-action carry the refreshed visual identity across all five pages. DM Sans and Manrope load from Google Fonts with system fallbacks. All illustrations and project mockups are CSS/SVG; no external image assets are required.
+
+## Brand assets
+
+Custom geometric E logo with angled terminals and a blue-to-violet tile. `public/logo.svg` is the navy wordmark; `public/logo-light.svg` is the white version for dark backgrounds. `public/logo-mark.svg` is the standalone mark and `public/favicon.svg` is its browser icon. The Angular header and footer import `src/logo-mark.svg`. All assets are editable vectors.
